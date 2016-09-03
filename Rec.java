@@ -32,8 +32,10 @@ public class Rec {
     /** = a copy of s with characters in reverse order.
 		Example: reverse("abcdefg") = "gfedcba". */
 	public static String reverse(String s) {
-	
-	// fill me in
+	if(s.length()==0) return "";
+	return reverse(s.substring(1))+String.valueOf(s.charAt(0));
+
+
 	
 	}
 
