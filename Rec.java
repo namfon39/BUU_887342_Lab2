@@ -27,8 +27,16 @@ public class Rec {
     /** = a copy of s with to_remove_char removed.
 		Example: removeChar("abeabe", 'e') = "abab". */
 	public static String removeChar(String s, char to_remove_char) {
-	
-	// fill me in
+			String a ="";
+				for(int i=0;i<s.length();i++){
+						if(s.charAt(i)!=to_remove_char)
+								{
+											a+=s.charAt(i);
+													}
+														}
+															return a;
+																
+     
 	
 	}
 	
