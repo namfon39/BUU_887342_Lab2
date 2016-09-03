@@ -29,7 +29,8 @@ public class Rec {
 	public static String removeChar(String s, char to_remove_char) {
 
 			String a ="";
-				for (int i=0;i<s.length();i++){
+
+				for (int i=0;i < s.length();i++){
 						if(s.charAt(i)!=to_remove_char)
 								{
 											a+=s.charAt(i);
